@@ -1,4 +1,4 @@
-setwd("C:/Users/pawlusm/Desktop/decTree/twitter/twitter_analysis")
+#setwd("C:/Users/pawlusm/Desktop/decTree/twitter/twitter_analysis")
 
 #connect all libraries
 library(twitteR)
@@ -17,10 +17,10 @@ download.file(url='http://curl.haxx.se/ca/cacert.pem', destfile='cacert.pem')
 reqURL <- 'https://api.twitter.com/oauth/request_token'
 accessURL <- 'https://api.twitter.com/oauth/access_token'
 authURL <- 'https://api.twitter.com/oauth/authorize'
-consumerKey <- 'ZAV9io0PypRDEn7NIDQxadG34' #put the Consumer Key from Twitter Application
-consumerSecret <- 'jiLtxPf0iJSR13J09L0f3jEHAWfJwZwEWcygaQEZe2DtR5U8xe'  #put the Consumer Secret from Twitter Application
-access_token <- '16344033-dNBbXoBROVH6bQfGqDTd6S2eqdnqdt0NuUBApV28w'
-access_secret <- 'I2ZQfNjqk2F3BkEhy6JHh7G4fXXo4QJLJIhauG7lISY3k'
+consumerKey <- '____________' #put the Consumer Key from Twitter Application
+consumerSecret <- '_____________'  #put the Consumer Secret from Twitter Application
+access_token <- '______________'
+access_secret <- '_______________'
 Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
                          requestURL=reqURL,
